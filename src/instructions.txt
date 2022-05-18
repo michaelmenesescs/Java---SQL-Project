@@ -1,0 +1,40 @@
+
+JavaSQL Project created by Michael Meneses - 23654954
+
+Requirements:
+------------------
+MySQL running on port 3306
+
+Instructions to run application:
+--------------------------------
+
+First, you must run the schema.sql and create the databases and data we will be working with.
+
+
+To do this in the SQL client, open up a terminal in the source folder
+
+And sign in to MySQL
+
+Then run,
+
+mysql> \. schema.sql
+
+
+The database and tables should be automatically created. 
+
+You need to enter your username and password in 
+
+To create a runnable JAR file in Eclipse,
+
+Simply go to Main.java and right-click "Export"
+
+Then click "Runnable JAR file" and follow the instructions. 
+
+Then go to the directory where you downloaded the file 
+
+And run 
+
+java -jar SQLApp.jar
+
+The application should then connect to MySQL remotely and then show the options. 
+
