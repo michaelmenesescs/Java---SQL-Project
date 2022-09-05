@@ -1,0 +1,73 @@
+
+|-------------------|
+|      SELECT       |
+|-------------------|
+Example:
+
+SELECT name FROM user WHERE name = "Tester";
+
+Enter the table first.
+"User"
+
+Then, enter the column name.
+
+"Name"
+
+Enter the condition.
+
+"Name = 'Tester'"
+  
+|-------------------|
+|      UPDATE       |
+|-------------------|
+Example:
+
+UPDATE user SET role_id = '2' WHERE name = 'Tester'
+
+Enter the table first.
+user
+
+Then, enter the column name you wish to set.
+
+role_id = '2'
+
+Enter the condition.
+
+"name = 'Tester'"
+
+  
+|-------------------|
+|      INSERT       |
+|-------------------|
+Example:
+
+INSERT INTO user VALUES ('123', 'Tester', 1, 2);
+
+Must enter all values, will throw error if missing.
+
+Enter the table you want to insert into first.
+user
+
+Then, enter the values with parentheses.
+('123', 'Tester', 1, 2)
+
+  
+|-------------------|
+|      DELETE       |
+|-------------------|
+Example:
+
+DELETE FROM user WHERE name = "Joe Shmoe";
+
+Enter the table first.
+User
+
+Then, enter the column name.
+
+name
+
+Enter the parameter on which you wish to delete.
+Joe Shmoe
+  
+  
+  
